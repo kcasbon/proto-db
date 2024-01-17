@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7db8f7fb-490a-4a7d-b5a9-08c9b44eb8c8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/ARIESRecoveryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/recovery/ARIESRecoveryManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BNLJOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/query/BNLJOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BPlusNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/index/BPlusNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BPlusTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/index/BPlusTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BPlusTreeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/index/BPlusTreeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BPlusTreeMetadata.java" beforeDir="false" afterPath="$PROJECT_DIR$/index/BPlusTreeMetadata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DummyLockContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/DummyLockContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DummyLockManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/DummyLockManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DummyRecoveryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/recovery/DummyRecoveryManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DuplicateLockRequestException.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/DuplicateLockRequestException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GHJOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/query/GHJOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GroupByOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/query/GroupByOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexScanOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/query/IndexScanOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InnerNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/index/InnerNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InvalidLockException.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/InvalidLockException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JoinOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/query/JoinOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeafNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/index/LeafNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LimitOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/query/LimitOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lock.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/Lock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LockContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/LockContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LockManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/LockManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LockRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/LockRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LockType.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/LockType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LockUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/LockUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/recovery/LogManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/recovery/LogRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogType.java" beforeDir="false" afterPath="$PROJECT_DIR$/recovery/LogType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaterializeOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/query/MaterializeOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NoLockHeldException.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/NoLockHeldException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PNLJOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/query/PNLJOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/query/ProjectOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/query/QueryOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryPlan.java" beforeDir="false" afterPath="$PROJECT_DIR$/query/QueryPlan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecoveryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/recovery/RecoveryManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResourceName.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/ResourceName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SHJOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/query/SHJOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SNLJOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/query/SNLJOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelectOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/query/SelectOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SequentialScanOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/query/SequentialScanOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SortMergeOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/query/SortMergeOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SortOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/query/SortOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransactionTableEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/recovery/TransactionTableEntry.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2b4ctxqgGLgTIGJEKDQmPUgIvV6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/recovery" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/recovery" />
+      <recent name="$PROJECT_DIR$/concurrency" />
+      <recent name="$PROJECT_DIR$/query" />
+      <recent name="$PROJECT_DIR$/index" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="proto-db" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="proto-db" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="OdpsPythonConfigurationType" factoryName="MaxCompute Python">
+      <module name="proto-db" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <option name="PROJECT_NAME" value="" />
+      <option name="SCHEMA_NAME" value="" />
+      <option name="TABLE_NAME" value="" />
+      <option name="TABLE_COLUMNS" value="" />
+      <option name="TABLE_PARTITION" value="" />
+      <option name="MAIN_CLASS" value="" />
+      <option name="RECORD_LIMIT" value="100" />
+      <option name="COLUMN_SEPARATOR" value="," />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="proto-db" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="proto-db" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="proto-db" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="proto-db" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7db8f7fb-490a-4a7d-b5a9-08c9b44eb8c8" name="Changes" comment="" />
+      <created>1705478013046</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705478013046</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
